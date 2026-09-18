@@ -116,7 +116,6 @@ margin-left: 73px;
     width: 25%;
     gap: 30px;
     text-align: center;
-    border:solid #bababa 1px;
     
     
 }
@@ -142,7 +141,6 @@ margin-left: 73px;
     flex-wrap: wrap;
     width: 95%;
     justify-content: center;
-    background-color: #826F66;
     align-items: center;
     margin: auto;
 
@@ -162,7 +160,6 @@ margin-left: 73px;
 .Best_sellers .contener .collection{
     width: 25%;
     height: 530px;
-    border: #bababa solid;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
