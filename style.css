@@ -4,6 +4,9 @@
     box-sizing: border-box;
      font-family: "Inter", sans-serif;
 }
+body{
+    background-color: #fff;
+}
 ul{
     list-style: none;
 }
@@ -45,7 +48,7 @@ color: black;
 }
 .header .list  li a:hover{
     color: #826F66;
-    text-shadow: 0px 0px 15px #5f493f;
+    text-shadow: 0px 0px 15px #362924;
     transition: 0.4s;
 }
 .icons ul {
@@ -79,16 +82,110 @@ color: black;
     font-style: bold;
     line-height: 40px;
     letter-spacing: 4%;
-    
+    margin: 20px  87.5px 42px 87.5px ;
+
+}
+.hero .hero_icon p{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+margin-left: 73px;
 }
 .hero_icon img{
     
     width: 85.43px;
     height: 81.24px;
-    margin-top: 2px 12px 2px 12px 4px ;
+    margin: 161.28px 167.28px 42px 161.38px;
+
 }
 .hero .hero_icon button{
     width: 220px;
     height: 40px;
-    margin: 15px 18px 15px 18px 3px;
+    margin: 0px 100px 161.38px 100px;
+}
+.collection_section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.collection_section .collection{
+    margin-top: 80px;
+    width: 25%;
+    gap: 30px;
+    text-align: center;
+    border:solid #bababa 1px;
+    
+    
+}
+.collection img{
+    width: 70%;
+    margin-top:20px;
+}
+
+.collection_section .collection h2{
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+}
+.Best_sellers{
+    display: flex;
+    justify-content: center;
+}
+.Best_sellers .contener {
+    display:flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: center;
+    background-color: #826F66;
+    align-items: center;
+    margin: auto;
+
+}
+.Best_sellers .contener h2{
+    width: 100%;
+    margin-left:  42%;
+    margin-top: 80px;
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: bold;
+    line-height: 36px;
+    text-transform: uppercase;
+
+}
+.Best_sellers .contener .collection{
+    width: 25%;
+    height: 530px;
+    border: #bababa solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.Best_sellers .contener .collection img{
+width: 255px;
+height: 321px;
+}
+.Best_sellers .contener .collection h3{
+    width: 95%;
+    font-weight: 600;
+    font-style: bold;
+    line-height: 20px;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+}
+.Best_sellers .contener .collection button{
+    width: 255px;
+    height: 39px;
+    border: 1px;
+    padding: 15px 18px 15px 18px 3px;
+    gap: 3px;
 }
