@@ -1,194 +1,266 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     font-family: "Inter", sans-serif;
-}
-body{
-    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "Inter", sans-serif;
 }
 ul{
+    display: flex;
     list-style: none;
 }
 a{
     text-decoration: none;
 }
-.header{
+.contaner .header{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color:#fff  ;
-    border-bottom: solid 1px #bababa;
-    position: fixed;
+    background-color:#FFFFFF;
     width: 100%;
     height: 82px;
-    z-index: 10;
+    border-bottom:#807F86  1px solid;
 }
-.icons{
-    margin-right:165px ;
+.contaner .header .content{
+    width: 80%;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
-.logo{
-        margin-left:165px ;
-
+.contaner .header .content .logo{
+    border-radius: 1px 6px 1px 6px; 
+    margin-right: 20px;
+    width: 145px;
 }
-.header ul{
-    display: flex;
-}
-
-.header .list ul {
-    display: flex;
-    gap: 60px;
-}
-.header .list ul li a{
-    font-size: 14px;
+.contaner .header .content .manu ul li a{
 font-weight: 400;
-color: black;
-
+ line-height: 22px;
+ letter-spacing: 0%;
+ margin-right: 60px;
+ color: #3A3845;
 }
-.header .list  li a:hover{
-    color: #826F66;
-    text-shadow: 0px 0px 15px #362924;
-    transition: 0.4s;
+.contaner .header .content .Header_Right ul li {
+    margin: 24px;
 }
-.icons ul {
-    display: flex;
-    gap: 25.22px;
+.menu0{
+    display: none;
 }
-.slider img {
-    margin-top: 82px;
+.slider{
+    width: 100%;
+}
+.slider .content .slider_img{
+    
+    width: 100%;
+}
+ .contaner .slider  {
     width: 100%;
     height: 642px;
+    background-image: url(flat-lay-composition-different-sized-plates\ 1.png) ;
+    background-repeat: no-repeat;
 }
-.hero{
-    display: flex;
-    position: relative;
-    color: #fff;
-}
-.hero .hero_icon{
-    position: absolute;
-    z-index: 2;
+.contaner .slider .contant{
+    background-color:#826F66 ;
     width: 420px;
-    margin-left: 165px;
     height: 642px;
-        margin-top: 82px;  
-        background-color: #826F66;
+    margin-left: 165px;
 }
-.hero .hero_icon h2{
-    width: 245px;
+.contaner .slider .contant img{
+    width: 85px;
+    height: 81px;
+    margin: 161px 167px  42px 167px;
+}
+.contaner .slider .contant p{
+    width: 273px;
+    height: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color:#FFFDFB ;
+    margin-left: 73px;
+    margin-bottom: 20px;
+}
+.contaner .slider .contant h2{
+
     height: 80px;
-    font-size: 36px;
+    color:#FFFDFB ;
+    font-family:Garamond ;
     font-weight: 700;
+    font-size: 36px;
     font-style: bold;
     line-height: 40px;
     letter-spacing: 4%;
-    margin: 20px  87.5px 42px 87.5px ;
-
+    margin-left: 87px;
 }
-.hero .hero_icon p{
- font-size: 16px;
- font-weight: 400;
- line-height: 24px;
-margin-left: 73px;
-}
-.hero_icon img{
-    
-    width: 85.43px;
-    height: 81.24px;
-    margin: 161.28px 167.28px 42px 161.38px;
-
-}
-.hero .hero_icon button{
+.contaner .slider .contant button{
     width: 220px;
     height: 40px;
-    margin: 0px 100px 161.38px 100px;
-}
-.collection_section{
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-}
-.collection_section .collection{
-    margin-top: 80px;
-    width: 25%;
-    gap: 30px;
-    text-align: center;
-    
-    
-}
-.collection img{
-    width: 70%;
-    margin-top:20px;
-}
-
-.collection_section .collection h2{
-    font-size: 18px;
-    font-style: bold;
+    margin-top: 42px;
+    margin-left:100px ;
+    color: #826F66;
+    line-height: 20px;
     font-weight: 600;
+    letter-spacing: 0%;
+    background-color: #FFFDFB;
+}
+.eCommerce_Cards {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+.eCommerce_Cards .card{
+    margin-top:80px ;
+    width:259px ;
+    height: 291px;
+    text-align: center;
+}
+.eCommerce_Cards .card h3{
+    font-weight: 600;
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: 6%;
     text-transform: uppercase;
 }
-.Best_sellers{
-    display: flex;
-    justify-content: center;
-}
-.Best_sellers .contener {
-    display:flex;
-    flex-wrap: wrap;
-    width: 95%;
-    justify-content: center;
-    align-items: center;
+ .Best_sellers {
+    width: 80%;
     margin: auto;
-
 }
-.Best_sellers .contener h2{
-    width: 100%;
-    margin-left:  42%;
-    margin-top: 80px;
-    margin-bottom: 48px;
-    font-weight: 700;
-    font-size: 30px;
-    font-style: bold;
-    line-height: 36px;
-    text-transform: uppercase;
-
+ .Best_sellers .text {
+width: 100%;
+display: flex;
+text-align: center;
 }
-.Best_sellers .contener .collection{
-    width: 25%;
-    height: 530px;
+ .Best_sellers .text h2{
+    color: #3A3845;
+
+    width: 391px;
+    height: 36px;
+    margin: auto;
+        font-family: garamond  ;
+        font-weight: 700;
+        font-size: 30px;
+        font-style: bold;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        margin-top: 80px;
+        margin-bottom: 48px;
+ }
+ .Best_sellers .Cards_row1 {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+    gap:30px ;
+    margin-bottom: 30px;
+ }
+  .Best_sellers .Cards_row1 .card {
+    width:255px ;
+  }
 
-}
-
-.Best_sellers .contener .collection img{
-width: 255px;
-height: 321px;
-}
-.Best_sellers .contener .collection h3{
-    width: 95%;
+ .Best_sellers .Cards_row1 .card h3{
+    color: #3A3845;
     font-weight: 600;
     font-style: bold;
-    line-height: 20px;
-    letter-spacing: 6%;
+    font-size:14px ;
+    letter-spacing:6%;
     text-transform: uppercase;
-}
-.Best_sellers .contener .collection button{
-    width: 255px;
-    height: 39px;
-    border: 1px;
-    padding: 15px 18px 15px 18px 3px;
-    gap: 3px;
-}
-.Best_sellers .contener .collection p{
-    font-size: 14px;
+ }
+  .Best_sellers .Cards_row1 .card p{
+    color: #807F86;
     font-weight: 400;
-    line-height: 22px;
+    font-size: 14px;
     letter-spacing: 0%;
+    
+  }
+    .Best_sellers .Cards_row1 .card button{
+        width: 255px;
+        height: 39px;
+        border: #3A3845 1px solid;
+        text-transform: uppercase;
+        letter-spacing: 8%;
+        font-weight: 600;
+        font-size: 12px;
+        background-color: #FFFFFF;
+
 }
+.slider .img{
+    display: none;
+}
+@media screen and (min-width:320px) and (max-width:600px)  {
+.contaner .header .content .manu {
+    display: none;
+    }
+    .Header_Right .icon_d{
+        display: none;
+    }
+    .menu0{
+        display: block;
+    }
+    .contaner .header .content {
+        display: flex;
+      justify-content: space-between;
+
+    }
+    .slider {
+        background-image:none;
+    }
+    .slider .img{
+        display: block;
+    }
+    .slider .img img{
+        width: 100%;
+        height: 398px;
+    }
+    .contaner .slider .contant{
+        width: 100%;
+        margin-left: 0px;
+        height:354px ;
+        margin-bottom:20px ;
+    }
+    .contaner .slider .contant img{
+        margin:47px 190px 30px 190px;
+    }
+    .contaner .slider .contant button{
+        margin-top:20px ;
+    }
+    .eCommerce_Cards .card .none {
+        display: none;
+    }
+    .eCommerce_Cards{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+    .eCommerce_Cards .card{
+      margin-top: 130px;
+      margin-left:12px;
+
+    }
+    .Best_sellers{
+        width: 100%;
+    }
+    .Best_sellers .Cards_row1{
+        display: flex;
+        flex-wrap: wrap;
+         justify-content:center;
+    }
+    .Best_sellers .Cards_row1 .card{
+        width: 190px;
+        height: 500px;
+        margin-left: 10px;
+    }
+    .Best_sellers .Cards_row1 .card h3{
+        width: 190px;
+        height: 30px;
+    }
+    .Best_sellers .Cards_row1 .card p{
+        width: 190px;
+        height: 54px;
+    }
+    .Best_sellers .Cards_row1 .card button{
+
+        width: 190px;
+        height: 39px;
+    }
+        .Best_sellers .Cards_row1 .card img{
+            width: 100%;
+        }
+}
+
