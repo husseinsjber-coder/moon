@@ -44,16 +44,13 @@ font-weight: 400;
 .menu0{
     display: none;
 }
-.slider{
-    width: 100%;
-}
-.slider .content .slider_img{
+
+.contaner .slider .content .slider_img{
     
     width: 100%;
 }
  .contaner .slider  {
     width: 100%;
-    height: 642px;
     background-image: url(flat-lay-composition-different-sized-plates\ 1.png) ;
     background-repeat: no-repeat;
 }
@@ -225,6 +222,7 @@ text-align: center;
     }
     .contaner .slider .contant button{
         margin-top:20px ;
+        
     }
     .eCommerce_Cards .card .none {
         display: none;
