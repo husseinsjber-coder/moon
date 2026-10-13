@@ -2,8 +2,15 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#FFFFFF;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -37,6 +44,10 @@ font-weight: 400;
  letter-spacing: 0%;
  margin-right: 60px;
  color: #3A3845;
+}
+.contaner .header .content .manu ul li a:hover{
+     text-shadow: 0px 0px 20px #826F66 ;
+     transition: .3px;
 }
 .contaner .header .content .Header_Right ul li {
     margin: 24px;
@@ -188,14 +199,21 @@ text-align: center;
     .Header_Right .icon_d{
         display: none;
     }
+    body{
+        height: auto;
+        overflow-x: hidden;
+    }
+    
     .menu0{
         display: block;
     }
     .contaner{
-        width: 100%;
+      width: 100%;
     }
+ 
     .contaner .header{
-        width: 100%;
+        width:100%;
+        border-bottom: 1px #807F86 solid;
     }
     .contaner .header .content {
         display: flex;
@@ -207,10 +225,10 @@ text-align: center;
     }
     .slider .img{
         display: block;
+        width: 100%;
     }
     .slider .img img{
         width: 100%;
-        height: 398px;
     }
     .contaner .slider .contant{
         width: 100%;
@@ -222,7 +240,13 @@ text-align: center;
         margin:47px 40% 30px ;
     }
     .contaner .slider .contant button{
-        margin-top:20px ;
+        margin:20px auto 0px 70px;
+    }
+    .contaner .slider .contant p{
+        margin-left: 60px ;
+    }
+    .contaner .slider .contant h2{
+        margin-left: 60px;
     }
     .eCommerce_Cards .card .none {
         display: none;
@@ -235,7 +259,6 @@ text-align: center;
     .eCommerce_Cards .card{
       margin-top: 130px;
       margin-left:12px;
-
     }
     .Best_sellers{
         width: 100%;
@@ -248,7 +271,7 @@ text-align: center;
     .Best_sellers .Cards_row1 .card{
         width: 190px;
         height: 500px;
-        margin-left: 10px;
+        margin-left: 3px;
     }
     .Best_sellers .Cards_row1 .card h3{
         width: 190px;
