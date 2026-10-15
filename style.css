@@ -19,7 +19,6 @@ a{
 }
 .contaner{
     width: 100%;
-    background-color: #807F86;
 }
 .contaner .header{
     display: flex;
@@ -49,8 +48,9 @@ font-weight: 400;
  color: #3A3845;
 }
 .contaner .header .content .manu ul li a:hover{
-     text-shadow: 0px 0px 20px #826F66 ;
+     text-shadow: 0px 0px 20px #281409 ;
      transition: .3px;
+     color:#826F66;
 }
 .contaner .header .content .Header_Right ul li {
     margin: 24px;
